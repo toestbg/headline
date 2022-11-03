@@ -67,3 +67,31 @@
     font-weight: 700;
     src: local(""), url("../fonts/lora-v25-latin-700italic.woff2") format("woff2"), url("../fonts/lora-v25-latin-700italic.woff") format("woff");
 }
+
+@font-face {
+    font-family: 'repobold';
+    src: url('../fonts/Repo-Bold.woff') format('woff'), url('../fonts/Repo-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'repodemibold';
+    src: url('../fonts/Repo-DemiBold.woff') format('woff'), url('../fonts/Repo-DemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'repoextrabold';
+    src: url('../fonts/Repo-ExtraBold.woff') format('woff'), url('../fonts/Repo-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'repomedium';
+    src: url('../fonts/Repo-Medium.woff') format('woff'), url('../fonts/Repo-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
