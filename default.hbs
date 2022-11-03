@@ -60,11 +60,11 @@
                 {{#if @site.members_enabled}}
                 {{#unless @member}}
                     <section class="gh-subscribe">
-                        <h3 class="gh-subscribe-title">Subscribe to {{@site.title}}</h3>
+                        <h3 class="gh-subscribe-title">{{t "Subscribe to"}} {{@site.title}}</h3>
                         {{#if @custom.email_signup_text}}
                             <div class="gh-subscribe-description">{{@custom.email_signup_text}}</div>
                         {{/if}}
-                        <button class="gh-subscribe-btn gh-btn" data-portal="signup">{{> "icons/email"}} Subscribe now</button>
+                        <button class="gh-subscribe-btn gh-btn" data-portal="signup">{{> "icons/email"}} {{t "Subscribe now"}}</button>
                     </section>
                 {{/unless}}
                 {{/if}}

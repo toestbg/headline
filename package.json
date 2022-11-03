@@ -1,6 +1,6 @@
 {
     "name": "headline-toest",
-    "description": "A Ghost theme",
+    "description": "A modified version of Ghost's Headline theme",
     "version": "1.0.0",
     "private": true,
     "engines": {
