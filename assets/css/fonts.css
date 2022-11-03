@@ -1,34 +1,28 @@
+/* Repo:  Light (300), Regular (400), Medium (500), DemiBold (600), Bold (700), ExtraBold, Black, ExtraBlack */
 @font-face {
     font-family: Repo;
     src: url('../fonts/repo/Repo-Regular.otf.woff2') format('woff2'), url('../fonts/repo/Repo-Regular.otf.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Repo;
-    src: url('../fonts/repo/Repo-Medium.otf.woff2') format('woff2'), url('../fonts/repo/Repo-Medium.otf.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: Repo;
-    src: url('../fonts/repo/Repo-DemiBold.otf.woff2') format('woff2'), url('../fonts/repo/Repo-DemiBold.otf.woff') format('woff');
+    src: url('../fonts/repo/Repo-Medium.otf.woff2') format('woff2'), url('../fonts/repo/Repo-Medium.otf.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: Repo;
-    src: url('../fonts/repo/Repo-Bold.otf.woff2') format('woff2'), url('../fonts/repo/Repo-Bold.otf.woff') format('woff');
+    src: url('../fonts/repo/Repo-DemiBold.otf.woff2') format('woff2'), url('../fonts/repo/Repo-DemiBold.otf.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: Repo;
-    src: url('../fonts/repo/Repo-ExtraBold.otf.woff2') format('woff2'), url('../fonts/repo/Repo-ExtraBold.otf.woff') format('woff');
+    src: url('../fonts/repo/Repo-Bold.otf.woff2') format('woff2'), url('../fonts/repo/Repo-Bold.otf.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
